@@ -6,8 +6,12 @@
         <color name="purple_500">#6200EE</color>
         <color name="purple_700">#3700B3</color>
 
-    <color name="teal_200">#03DAC5</color>
+    <color name="teal_200">#2AD1C4</color>
     <color name="teal_700">#018786</color>
+    <color name="gray_200">#5B5A5A</color>
+    <color name="primary">#6200EE</color>
+
+
     <array name="note_colors">
         <item>#FF6F61</item>
         <item>#6B5B95</item>

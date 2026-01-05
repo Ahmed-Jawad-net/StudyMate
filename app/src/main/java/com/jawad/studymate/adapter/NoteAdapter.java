@@ -40,12 +40,16 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.NoteVH> {
     @Override
     public void onBindViewHolder(@NonNull NoteVH holder, int position) {
         Note note = notes.get(position);
-        holder.tvTitle.setText(note.getTitle());
-        holder.tvContent.setText(note.getContent());
 
+        // Trim and set text
+        holder.tvTitle.setText(note.getTitle().trim());
+        holder.tvContent.setText(note.getContent().trim());
+
+        // Cycle background color from note_colors array
         int[] colors = holder.itemView.getResources().getIntArray(R.array.note_colors);
         holder.card.setCardBackgroundColor(colors[position % colors.length]);
 
+        // Click and long-click listeners
         holder.itemView.setOnClickListener(v -> listener.onEdit(note));
         holder.itemView.setOnLongClickListener(v -> {
             listener.onDelete(note);

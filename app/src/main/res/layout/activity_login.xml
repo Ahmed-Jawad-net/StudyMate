@@ -45,7 +45,7 @@
             android:background="@drawable/edittext_background"
             android:hint="@string/hint_username"
             android:textColor="@color/black"
-            android:textColorHint="@color/black"
+            android:textColorHint="@color/gray_200"
             android:inputType="textEmailAddress"
             android:padding="15dp" />
 
@@ -59,7 +59,7 @@
             android:background="@drawable/edittext_background"
             android:hint="@string/hint_password"
             android:textColor="@color/black"
-            android:textColorHint="@color/black"
+            android:textColorHint="@color/gray_200"
             android:inputType="textPassword"
             android:padding="15dp" />
 

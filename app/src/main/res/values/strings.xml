@@ -63,6 +63,9 @@
         <string name="toast_registration_page">Registration page – to be implemented</string>
         <string name="toast_forgot_page">Forgot Password page – to be implemented</string>
 
+
+        <string name="notes_header">My Notes</string>
+
 </resources>
 
 

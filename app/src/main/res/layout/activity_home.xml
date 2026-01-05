@@ -19,7 +19,6 @@
             android:src="@drawable/ic_dashboard"
             android:contentDescription="@string/app_name"
             android:scaleType="centerInside"
-
             android:layout_marginTop="80dp"
             android:layout_marginBottom="16dp" />
 
@@ -34,61 +33,106 @@
             android:textColor="@color/black"
             android:layout_marginBottom="32dp" />
 
-        <!-- Notes Button -->
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnNotes"
-            style="@style/Widget.MaterialComponents.Button"
+        <!-- Feature Cards -->
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_notes"
-            android:textAllCaps="false"
             android:layout_marginBottom="16dp"
-            app:icon="@drawable/ic_notes"
-            app:iconSize="24dp"
-            app:iconPadding="12dp"
-            app:iconTint="@android:color/white" />
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:strokeColor="@color/primary"
+            app:strokeWidth="1dp">
 
-        <!-- Quiz Button -->
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnQuiz"
-            style="@style/Widget.MaterialComponents.Button"
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_notes"
+                android:textAllCaps="false"
+                android:padding="16dp"
+                android:backgroundTint="@color/primary"
+                android:textColor="@android:color/white"
+                app:icon="@drawable/ic_notes"
+                app:iconSize="24dp"
+                app:iconPadding="12dp"
+                app:iconTint="@android:color/white"
+                app:iconGravity="textStart" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_quiz"
-            android:textAllCaps="false"
             android:layout_marginBottom="16dp"
-            app:icon="@drawable/ic_quiz"
-            app:iconSize="24dp"
-            app:iconPadding="12dp"
-            app:iconTint="@android:color/white" />
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:strokeColor="@color/primary"
+            app:strokeWidth="1dp">
 
-        <!-- Web Resources Button -->
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnWeb"
-            style="@style/Widget.MaterialComponents.Button"
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnQuiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_quiz"
+                android:textAllCaps="false"
+                android:padding="16dp"
+                android:backgroundTint="@color/primary"
+                android:textColor="@android:color/white"
+                app:icon="@drawable/ic_quiz"
+                app:iconSize="24dp"
+                app:iconPadding="12dp"
+                app:iconTint="@android:color/white"
+                app:iconGravity="textStart" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_web"
-            android:textAllCaps="false"
             android:layout_marginBottom="16dp"
-            app:icon="@drawable/ic_web"
-            app:iconSize="24dp"
-            app:iconPadding="12dp"
-            app:iconTint="@android:color/white" />
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:strokeColor="@color/primary"
+            app:strokeWidth="1dp">
 
-        <!-- Settings Button -->
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnSettings"
-            style="@style/Widget.MaterialComponents.Button"
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnWeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_web"
+                android:textAllCaps="false"
+                android:padding="16dp"
+                android:backgroundTint="@color/primary"
+                android:textColor="@android:color/white"
+                app:icon="@drawable/ic_web"
+                app:iconSize="24dp"
+                app:iconPadding="12dp"
+                app:iconTint="@android:color/white"
+                app:iconGravity="textStart" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_settings"
-            android:textAllCaps="false"
             android:layout_marginBottom="32dp"
-            app:icon="@drawable/ic_settings"
-            app:iconSize="24dp"
-            app:iconPadding="12dp"
-            app:iconTint="@android:color/white" />
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:strokeColor="@color/primary"
+            app:strokeWidth="1dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSettings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_settings"
+                android:textAllCaps="false"
+                android:padding="16dp"
+                android:backgroundTint="@color/primary"
+                android:textColor="@android:color/white"
+                app:icon="@drawable/ic_settings"
+                app:iconSize="24dp"
+                app:iconPadding="12dp"
+                app:iconTint="@android:color/white"
+                app:iconGravity="textStart" />
+        </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
 </ScrollView>

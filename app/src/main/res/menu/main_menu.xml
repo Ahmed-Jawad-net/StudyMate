@@ -5,11 +5,11 @@
         android:id="@+id/menu_settings"
         android:title="@string/btn_settings"
         android:icon="@drawable/ic_settings"
-        app:showAsAction="never|ifRoom" />
+        app:showAsAction="never" />
 
     <item
         android:id="@+id/menu_logout"
         android:title="@string/btn_logout"
         android:icon="@drawable/ic_logout"
-        app:showAsAction="never|ifRoom" />
+        app:showAsAction="never" />
 </menu>
