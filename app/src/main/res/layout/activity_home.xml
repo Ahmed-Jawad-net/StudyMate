@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Welcome Icon -->
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_dashboard"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerInside"
+
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Welcome Text -->
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_welcome"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Notes Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNotes"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_notes"
+            android:textAllCaps="false"
+            android:layout_marginBottom="16dp"
+            app:icon="@drawable/ic_notes"
+            app:iconSize="24dp"
+            app:iconPadding="12dp"
+            app:iconTint="@android:color/white" />
+
+        <!-- Quiz Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnQuiz"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_quiz"
+            android:textAllCaps="false"
+            android:layout_marginBottom="16dp"
+            app:icon="@drawable/ic_quiz"
+            app:iconSize="24dp"
+            app:iconPadding="12dp"
+            app:iconTint="@android:color/white" />
+
+        <!-- Web Resources Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnWeb"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_web"
+            android:textAllCaps="false"
+            android:layout_marginBottom="16dp"
+            app:icon="@drawable/ic_web"
+            app:iconSize="24dp"
+            app:iconPadding="12dp"
+            app:iconTint="@android:color/white" />
+
+        <!-- Settings Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSettings"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_settings"
+            android:textAllCaps="false"
+            android:layout_marginBottom="32dp"
+            app:icon="@drawable/ic_settings"
+            app:iconSize="24dp"
+            app:iconPadding="12dp"
+            app:iconTint="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>

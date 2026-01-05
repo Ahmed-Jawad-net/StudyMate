@@ -1,0 +1,69 @@
+<resources>
+
+
+        <!-- App name -->
+        <string name="app_name">StudyMate</string>
+
+        <!-- Login -->
+        <string name="login_title">StudyMate Login</string>
+        <string name="hint_username">Username</string>
+        <string name="hint_password">Password</string>
+        <string name="btn_login">Login</string>
+        <string name="link_register">Register</string>
+        <string name="link_forgot">Forgot Password</string>
+        <string name="toast_invalid_credentials">Invalid credentials</string>
+
+        <!-- Home -->
+        <string name="home_welcome">Welcome to StudyMate</string>
+        <string name="btn_notes">Notes</string>
+        <string name="btn_quiz">Quiz</string>
+        <string name="btn_web">Web Resources</string>
+        <string name="btn_settings">Settings</string>
+
+        <!-- Registration -->
+        <string name="register_title">Register New Account</string>
+        <string name="hint_new_username">New Username</string>
+        <string name="hint_new_password">New Password</string>
+        <string name="btn_register">Register</string>
+        <string name="toast_registered">Registered successfully!</string>
+
+        <!-- Forgot Password -->
+        <string name="forgot_title">Forgot Password</string>
+        <string name="hint_forgot_username">Enter Username</string>
+        <string name="btn_reset_password">Reset Password</string>
+        <string name="toast_user_not_found">User not found!</string>
+
+        <!-- Reset Password -->
+        <string name="reset_title">Reset Password</string>
+        <string name="hint_new_pass">Enter New Password</string>
+        <string name="btn_save_password">Save Password</string>
+        <string name="toast_password_updated">Password updated!</string>
+
+        <!-- Notes -->
+        <string name="btn_add_note">Add Note</string>
+        <string name="dialog_add_note">Add Note</string>
+        <string name="dialog_edit_note">Edit Note</string>
+        <string name="dialog_save">Save</string>
+        <string name="dialog_update">Update</string>
+        <string name="dialog_delete">Delete</string>
+        <string name="dialog_cancel">Cancel</string>
+
+        <!-- Quiz -->
+        <string name="btn_fetch_questions">Fetch Questions</string>
+        <string name="toast_empty_response">Empty response</string>
+        <string name="toast_network_error">Network error, loading offline data</string>
+
+        <!-- Settings -->
+        <string name="btn_light_theme">Light Theme</string>
+        <string name="btn_dark_theme">Dark Theme</string>
+        <string name="btn_logout">Logout</string>
+
+        <!-- Toasts -->
+
+        <string name="toast_registration_page">Registration page – to be implemented</string>
+        <string name="toast_forgot_page">Forgot Password page – to be implemented</string>
+
+</resources>
+
+
+
